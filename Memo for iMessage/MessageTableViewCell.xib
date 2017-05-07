@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Text-Bold.otf">
+            <string>SFUIText-Bold</string>
+        </array>
+        <array key="SF-UI-Text-Regular.otf">
+            <string>SFUIText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="83" id="KGk-i7-Jjw" customClass="MessageTableViewCell" customModule="Memo_for_iMessage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="91.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cc-fc-fJ2">
+                        <rect key="frame" x="8" y="44" width="304" height="19"/>
+                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBR-1G-wbD">
+                        <rect key="frame" x="8" y="0.0" width="304" height="36"/>
+                        <fontDescription key="fontDescription" name="SFUIText-Bold" family="SF UI Text" pointSize="25"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGD-ie-vYW">
+                        <rect key="frame" x="8" y="71" width="304" height="19"/>
+                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aGD-ie-vYW" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="9wz-8g-2vz"/>
+                    <constraint firstItem="6cc-fc-fJ2" firstAttribute="top" secondItem="bBR-1G-wbD" secondAttribute="bottom" constant="8" id="AbZ-Gm-Y0d"/>
+                    <constraint firstItem="bBR-1G-wbD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="ChG-lZ-o1s"/>
+                    <constraint firstItem="aGD-ie-vYW" firstAttribute="top" secondItem="6cc-fc-fJ2" secondAttribute="bottom" constant="8" id="Yh7-iF-NzA"/>
+                    <constraint firstItem="bBR-1G-wbD" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="ZCh-Rm-0lG"/>
+                    <constraint firstItem="bBR-1G-wbD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="biR-A5-SWe"/>
+                    <constraint firstItem="6cc-fc-fJ2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="h7W-Hy-Eez"/>
+                    <constraint firstItem="aGD-ie-vYW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="nCf-oV-ce7"/>
+                    <constraint firstItem="6cc-fc-fJ2" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="oaF-vI-g7G"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="aGD-ie-vYW" secondAttribute="bottom" constant="-6.5" id="vcu-jS-Oob"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cell" destination="bBR-1G-wbD" id="5DZ-FW-49y"/>
+                <outlet property="subtitle" destination="6cc-fc-fJ2" id="2sf-Bz-jaC"/>
+                <outlet property="timeLabel" destination="aGD-ie-vYW" id="oQY-LY-U9N"/>
+            </connections>
+            <point key="canvasLocation" x="287" y="343"/>
+        </tableViewCell>
+    </objects>
+</document>

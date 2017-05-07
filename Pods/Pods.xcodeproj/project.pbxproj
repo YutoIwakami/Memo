@@ -1,0 +1,1132 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0374D1B5E5B77125E92AC57E1C6D0293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		19791911A0225C64BBF49B0F5B534720 /* Pods-Memo for iMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DB0F782D5D458FB62DD8EEEB788F3 /* Pods-Memo for iMessage-dummy.m */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E7AEA79B27BB2372F07958787A39E3 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ABD5FCAE4593A024C8674421A35AC89 /* Pods-MemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA3B28B15E68080B5C206D5DDC65BC3 /* Pods-MemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81549A82DCEFFC569F5208C15F5C1A46 /* Pods-Memo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 034C8FFE7C3979AACB52DE05DACD8CE8 /* Pods-Memo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1988AAEAA95D090574159B2E1DB88516 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		886D4F41C812E322C52E7164B0E5DA65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		91A88B8482A29FC3BD66A8AB0B4666E2 /* Pods-MemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAAD2155CEF9DAB31DBDDF9ACCFB733 /* Pods-MemoUITests-dummy.m */; };
+		93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		97BEA8B544737DDE4BAE4774FF7073BE /* Pods-Memo for iMessage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA713DBFFA020D6A9FC772FA47F579AA /* Pods-Memo for iMessage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D020AB748399D58FFCF86C51905930 /* Pods-Memo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B7C09CD14293BEC876830EE722813C /* Pods-Memo-dummy.m */; };
+		B3D7E6AEA678CA0144ADB8A22933D9D5 /* Pods-MemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 486C26858F6A156740AB3641897312C3 /* Pods-MemoTests-dummy.m */; };
+		BDB38F8E8447913C0296A6F0E85A198A /* Pods-MemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD597A6087296847D72396758EC0DFF3 /* Pods-MemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C54A3E55D70768856E2ED7DDCF063BB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 265BC960BD6B075EE36C1EF317263970 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB9B1F942744B278B033ED572F56090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 8822B7474563581E8EEF4D8EE3528906 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F89ABD6004208281A66F928B881348 /* GoogleToolboxForMac-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		418A40B2F47B67864BC4A1A3D3C8B892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016EB77FAACAF27A54A574428D9CB867 /* Pods-Memo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Memo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		034C8FFE7C3979AACB52DE05DACD8CE8 /* Pods-Memo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Memo-umbrella.h"; sourceTree = "<group>"; };
+		1988AAEAA95D090574159B2E1DB88516 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		19AA95E138099045A68E22B5B0EAFA4C /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		1C1282B9B962E5ABB0EF55000A9CBDDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254CA7CE39807C463696345CF6C1C0B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265BC960BD6B075EE36C1EF317263970 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		2765FDCB506A6FAB632A1F1C41A16A62 /* Pods-Memo for iMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Memo for iMessage.release.xcconfig"; sourceTree = "<group>"; };
+		2CAAD2155CEF9DAB31DBDDF9ACCFB733 /* Pods-MemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MemoUITests-dummy.m"; sourceTree = "<group>"; };
+		33B82AACF9B9D80892CB6AC30288E78D /* Pods-Memo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Memo.modulemap"; sourceTree = "<group>"; };
+		3C476EB2481FCF1DA3DDDABE28B4A864 /* Pods-MemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4134255C026EA6825C7815506057D064 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		4376AB8A49C87FE40E000B8CF5C5B7C6 /* Pods_MemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MemoUITests.framework; path = "Pods-MemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43DD27F5173B20C10A91B28AFDA5CCCE /* Pods-MemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		448611993E5EE9314BE24D6518883B7E /* Pods-MemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		486C26858F6A156740AB3641897312C3 /* Pods-MemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MemoTests-dummy.m"; sourceTree = "<group>"; };
+		4B7B54BCDD1001B4BABBE52F7B1B34A3 /* Pods-MemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MemoUITests-resources.sh"; sourceTree = "<group>"; };
+		4F03AE5A2F62FE3FC7CEFBD6B2856E85 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		58CB8D934FE59C8496F7F98445DC38B8 /* Pods-Memo for iMessage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Memo for iMessage-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D5FB6EB5F69417AC0A6622C737FCFBF /* Pods-MemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D88FD349E8EA3382C5E44448A16D515 /* Pods-Memo for iMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Memo for iMessage.debug.xcconfig"; sourceTree = "<group>"; };
+		6492D057455434E5BF3F607B89A523DC /* Pods_Memo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Memo.framework; path = "Pods-Memo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E3CC8CE51E43EF5F6390FABD8484D5 /* Pods-Memo for iMessage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Memo for iMessage-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6AA3B28B15E68080B5C206D5DDC65BC3 /* Pods-MemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		6F5DB0F782D5D458FB62DD8EEEB788F3 /* Pods-Memo for iMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Memo for iMessage-dummy.m"; sourceTree = "<group>"; };
+		7259D8DF721F37F346A8C53098FD15DC /* Pods-MemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		743D90AEDEAE850B8F652D8A49BBBB1A /* Pods-MemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MemoTests.modulemap"; sourceTree = "<group>"; };
+		8822B7474563581E8EEF4D8EE3528906 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		8BA23F33FDCE86C1EBF1243EA121B513 /* Pods-Memo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Memo-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959743F9CC31A5D659B93E6EEE0328E3 /* Pods-Memo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Memo.debug.xcconfig"; sourceTree = "<group>"; };
+		961E676BB383C028449B6795564C8AAD /* Pods-Memo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Memo.release.xcconfig"; sourceTree = "<group>"; };
+		9BD75A1EF28A80FFEFB30869A875C3DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDEF403CBB7719CACC40298A9AACCB3 /* Pods-Memo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Memo-frameworks.sh"; sourceTree = "<group>"; };
+		9D1C085C493E47AC2B455B3A6179E988 /* Pods_MemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MemoTests.framework; path = "Pods-MemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE5794BB10FECD3DA65B25B0E79384E /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		A22D8253E8C65580D28DF7996D87A784 /* Pods-MemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A69624BF47A0D5E5AFFE3DA1B1F0C353 /* Pods-Memo for iMessage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Memo for iMessage.modulemap"; sourceTree = "<group>"; };
+		A7B820730CF03CBA665A6EAF9FB7CECB /* Pods-MemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7D285F10EC1334214AB518153AF7A3F /* Pods-MemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MemoTests-resources.sh"; sourceTree = "<group>"; };
+		A9CB5912498C4F65741B9864FD547726 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4F1AD7A2D53A83EE7B729989A48FCF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD597A6087296847D72396758EC0DFF3 /* Pods-MemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MemoTests-umbrella.h"; sourceTree = "<group>"; };
+		BA713DBFFA020D6A9FC772FA47F579AA /* Pods-Memo for iMessage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Memo for iMessage-umbrella.h"; sourceTree = "<group>"; };
+		C1EB450B5C08E7F68D19A28C61D085DF /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		C60D9A3134890175EB43096E594883A3 /* Pods_Memo_for_iMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Memo_for_iMessage.framework; path = "Pods-Memo for iMessage.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86FA97B3A8E0273CC194D6FEF99A989 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		CB04EE9D5CC92098A68D0F32B3C6303E /* Pods-MemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2F89ABD6004208281A66F928B881348 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		D5380AA3B3379F11E57739C9FFC93AC1 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		D5B45445836DE7F28FDBFAF38C993ADF /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A974D205AE1AB57D2220BCE7C35D85 /* Pods-MemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D8160B747842A74ABC37FA972E5A0F50 /* Pods-MemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MemoUITests.modulemap"; sourceTree = "<group>"; };
+		E01BB1766E506E6933A2F3B86885DB8D /* Pods-MemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		E0E7AEA79B27BB2372F07958787A39E3 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		E3B7C09CD14293BEC876830EE722813C /* Pods-Memo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Memo-dummy.m"; sourceTree = "<group>"; };
+		E9EE1BE34F346A132E73987DFA30272A /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		EC63147925BF851B1EEDCEE4FE71E53E /* Pods-Memo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Memo-resources.sh"; sourceTree = "<group>"; };
+		EF61BA80B57F87FD30D304224385DD9F /* Pods-Memo for iMessage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Memo for iMessage-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654C63AC2C162AF8BE183BF74E1F5444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54A3E55D70768856E2ED7DDCF063BB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB55B06E4551C4E857CB90035BD24E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886D4F41C812E322C52E7164B0E5DA65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC4ECCA2266221FA2A897F85D7E8B3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0374D1B5E5B77125E92AC57E1C6D0293 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE32188C925B4DE6289697FC604E3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB9B1F942744B278B033ED572F56090 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09AA4B0F4CBB70E4FEDAED62071FBE4E /* Pods-Memo */ = {
+			isa = PBXGroup;
+			children = (
+				1C1282B9B962E5ABB0EF55000A9CBDDD /* Info.plist */,
+				33B82AACF9B9D80892CB6AC30288E78D /* Pods-Memo.modulemap */,
+				016EB77FAACAF27A54A574428D9CB867 /* Pods-Memo-acknowledgements.markdown */,
+				8BA23F33FDCE86C1EBF1243EA121B513 /* Pods-Memo-acknowledgements.plist */,
+				E3B7C09CD14293BEC876830EE722813C /* Pods-Memo-dummy.m */,
+				9BDEF403CBB7719CACC40298A9AACCB3 /* Pods-Memo-frameworks.sh */,
+				EC63147925BF851B1EEDCEE4FE71E53E /* Pods-Memo-resources.sh */,
+				034C8FFE7C3979AACB52DE05DACD8CE8 /* Pods-Memo-umbrella.h */,
+				959743F9CC31A5D659B93E6EEE0328E3 /* Pods-Memo.debug.xcconfig */,
+				961E676BB383C028449B6795564C8AAD /* Pods-Memo.release.xcconfig */,
+			);
+			name = "Pods-Memo";
+			path = "Target Support Files/Pods-Memo";
+			sourceTree = "<group>";
+		};
+		09F2FD44F2E6572057E224C2C73827E2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9FE5794BB10FECD3DA65B25B0E79384E /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		10E8685FAAD0C33170DE2D562037EF47 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				E0E7AEA79B27BB2372F07958787A39E3 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		22630EE6BE14930BD68DB3A410A789E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F03AE5A2F62FE3FC7CEFBD6B2856E85 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A57CF4BCE1A8F1F09E70AF79E064D30 /* Pods-MemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9CB5912498C4F65741B9864FD547726 /* Info.plist */,
+				743D90AEDEAE850B8F652D8A49BBBB1A /* Pods-MemoTests.modulemap */,
+				A22D8253E8C65580D28DF7996D87A784 /* Pods-MemoTests-acknowledgements.markdown */,
+				7259D8DF721F37F346A8C53098FD15DC /* Pods-MemoTests-acknowledgements.plist */,
+				486C26858F6A156740AB3641897312C3 /* Pods-MemoTests-dummy.m */,
+				E01BB1766E506E6933A2F3B86885DB8D /* Pods-MemoTests-frameworks.sh */,
+				A7D285F10EC1334214AB518153AF7A3F /* Pods-MemoTests-resources.sh */,
+				AD597A6087296847D72396758EC0DFF3 /* Pods-MemoTests-umbrella.h */,
+				5D5FB6EB5F69417AC0A6622C737FCFBF /* Pods-MemoTests.debug.xcconfig */,
+				448611993E5EE9314BE24D6518883B7E /* Pods-MemoTests.release.xcconfig */,
+			);
+			name = "Pods-MemoTests";
+			path = "Target Support Files/Pods-MemoTests";
+			sourceTree = "<group>";
+		};
+		3ADCF607FF2D10546AF337ED27FC207E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5B45445836DE7F28FDBFAF38C993ADF /* GoogleToolboxForMac.framework */,
+				6492D057455434E5BF3F607B89A523DC /* Pods_Memo.framework */,
+				C60D9A3134890175EB43096E594883A3 /* Pods_Memo_for_iMessage.framework */,
+				9D1C085C493E47AC2B455B3A6179E988 /* Pods_MemoTests.framework */,
+				4376AB8A49C87FE40E000B8CF5C5B7C6 /* Pods_MemoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F2EBD8B64B5E30E2186A6FBD94C29CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1EB450B5C08E7F68D19A28C61D085DF /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BF342483D716869318887CB1B3AE375 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68D9E6B7E092219B91D89716FD281070 /* Firebase */,
+				5B775B89F574A70CFB8D5F0DC67084A7 /* FirebaseAnalytics */,
+				99CECD2CF68A42C5FA7904C0696A3898 /* FirebaseCore */,
+				BB2D016D344B6687A72B1852DF2B72D1 /* FirebaseDatabase */,
+				8EA7290AE530824E4C7D00087C7D9AC8 /* FirebaseInstanceID */,
+				A787A628EADD646FA1A1D9C8E7A9248D /* GoogleToolboxForMac */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B775B89F574A70CFB8D5F0DC67084A7 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				3F2EBD8B64B5E30E2186A6FBD94C29CE /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		68D9E6B7E092219B91D89716FD281070 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				09F2FD44F2E6572057E224C2C73827E2 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		6B68D45812C2C46C6A1D821AC37D544B /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				265BC960BD6B075EE36C1EF317263970 /* GTMNSData+zlib.h */,
+				8822B7474563581E8EEF4D8EE3528906 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4BF342483D716869318887CB1B3AE375 /* Pods */,
+				3ADCF607FF2D10546AF337ED27FC207E /* Products */,
+				9CC857382202264715FEA3D3338C49F8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EA7290AE530824E4C7D00087C7D9AC8 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				F0F116DE54A3573FC3A328A5E6A5821D /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		99CECD2CF68A42C5FA7904C0696A3898 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				AAA364C55C635CE93C4DFED4A993D325 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		9CC857382202264715FEA3D3338C49F8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09AA4B0F4CBB70E4FEDAED62071FBE4E /* Pods-Memo */,
+				A45596A66EDEA164557F7C9BBDB4E87E /* Pods-Memo for iMessage */,
+				2A57CF4BCE1A8F1F09E70AF79E064D30 /* Pods-MemoTests */,
+				C8606E486C38632B23FDD70462B8DE10 /* Pods-MemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A45596A66EDEA164557F7C9BBDB4E87E /* Pods-Memo for iMessage */ = {
+			isa = PBXGroup;
+			children = (
+				9BD75A1EF28A80FFEFB30869A875C3DD /* Info.plist */,
+				A69624BF47A0D5E5AFFE3DA1B1F0C353 /* Pods-Memo for iMessage.modulemap */,
+				58CB8D934FE59C8496F7F98445DC38B8 /* Pods-Memo for iMessage-acknowledgements.markdown */,
+				EF61BA80B57F87FD30D304224385DD9F /* Pods-Memo for iMessage-acknowledgements.plist */,
+				6F5DB0F782D5D458FB62DD8EEEB788F3 /* Pods-Memo for iMessage-dummy.m */,
+				65E3CC8CE51E43EF5F6390FABD8484D5 /* Pods-Memo for iMessage-resources.sh */,
+				BA713DBFFA020D6A9FC772FA47F579AA /* Pods-Memo for iMessage-umbrella.h */,
+				5D88FD349E8EA3382C5E44448A16D515 /* Pods-Memo for iMessage.debug.xcconfig */,
+				2765FDCB506A6FAB632A1F1C41A16A62 /* Pods-Memo for iMessage.release.xcconfig */,
+			);
+			name = "Pods-Memo for iMessage";
+			path = "Target Support Files/Pods-Memo for iMessage";
+			sourceTree = "<group>";
+		};
+		A787A628EADD646FA1A1D9C8E7A9248D /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				10E8685FAAD0C33170DE2D562037EF47 /* Defines */,
+				6B68D45812C2C46C6A1D821AC37D544B /* NSData+zlib */,
+				A96AF31933F6210AC40D20C134635815 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		A96AF31933F6210AC40D20C134635815 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C86FA97B3A8E0273CC194D6FEF99A989 /* GoogleToolboxForMac.modulemap */,
+				19AA95E138099045A68E22B5B0EAFA4C /* GoogleToolboxForMac.xcconfig */,
+				D2F89ABD6004208281A66F928B881348 /* GoogleToolboxForMac-dummy.m */,
+				4134255C026EA6825C7815506057D064 /* GoogleToolboxForMac-prefix.pch */,
+				1988AAEAA95D090574159B2E1DB88516 /* GoogleToolboxForMac-umbrella.h */,
+				AC4F1AD7A2D53A83EE7B729989A48FCF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		AAA364C55C635CE93C4DFED4A993D325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5380AA3B3379F11E57739C9FFC93AC1 /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB2D016D344B6687A72B1852DF2B72D1 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				22630EE6BE14930BD68DB3A410A789E9 /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8606E486C38632B23FDD70462B8DE10 /* Pods-MemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				254CA7CE39807C463696345CF6C1C0B9 /* Info.plist */,
+				D8160B747842A74ABC37FA972E5A0F50 /* Pods-MemoUITests.modulemap */,
+				43DD27F5173B20C10A91B28AFDA5CCCE /* Pods-MemoUITests-acknowledgements.markdown */,
+				3C476EB2481FCF1DA3DDDABE28B4A864 /* Pods-MemoUITests-acknowledgements.plist */,
+				2CAAD2155CEF9DAB31DBDDF9ACCFB733 /* Pods-MemoUITests-dummy.m */,
+				D6A974D205AE1AB57D2220BCE7C35D85 /* Pods-MemoUITests-frameworks.sh */,
+				4B7B54BCDD1001B4BABBE52F7B1B34A3 /* Pods-MemoUITests-resources.sh */,
+				6AA3B28B15E68080B5C206D5DDC65BC3 /* Pods-MemoUITests-umbrella.h */,
+				A7B820730CF03CBA665A6EAF9FB7CECB /* Pods-MemoUITests.debug.xcconfig */,
+				CB04EE9D5CC92098A68D0F32B3C6303E /* Pods-MemoUITests.release.xcconfig */,
+			);
+			name = "Pods-MemoUITests";
+			path = "Target Support Files/Pods-MemoUITests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F0F116DE54A3573FC3A328A5E6A5821D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE1BE34F346A132E73987DFA30272A /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33E0869F2A1E1400ACA55B52B418D5F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97BEA8B544737DDE4BAE4774FF7073BE /* Pods-Memo for iMessage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924CD01B9316278B856A22CCC4972BDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABD5FCAE4593A024C8674421A35AC89 /* Pods-MemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D9D2CB434175315B30C6BABD836D50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB38F8E8447913C0296A6F0E85A198A /* Pods-MemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AF2D2AA48A349CC8D9945B47D959F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81549A82DCEFFC569F5208C15F5C1A46 /* Pods-Memo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = D5B45445836DE7F28FDBFAF38C993ADF /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1552562C3964633C9440953C61FD3C2C /* Pods-MemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599AA52625DE61C28E8D8F888E795FEB /* Build configuration list for PBXNativeTarget "Pods-MemoUITests" */;
+			buildPhases = (
+				FBF2C62EF9DCD472430E4A5C77AA9FC8 /* Sources */,
+				654C63AC2C162AF8BE183BF74E1F5444 /* Frameworks */,
+				924CD01B9316278B856A22CCC4972BDB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MemoUITests";
+			productName = "Pods-MemoUITests";
+			productReference = 4376AB8A49C87FE40E000B8CF5C5B7C6 /* Pods_MemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D931C20A7AD4314A4F50BA28DE2F02E /* Pods-MemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485647E5FE82D541A90DF84DCF06E90D /* Build configuration list for PBXNativeTarget "Pods-MemoTests" */;
+			buildPhases = (
+				EF37C10064104BA397350A629207B54A /* Sources */,
+				FFE32188C925B4DE6289697FC604E3E8 /* Frameworks */,
+				94D9D2CB434175315B30C6BABD836D50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MemoTests";
+			productName = "Pods-MemoTests";
+			productReference = 9D1C085C493E47AC2B455B3A6179E988 /* Pods_MemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1D70612F414D3F983FDED415E140C67 /* Pods-Memo for iMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA41A1773121865C690A1198DC034EC /* Build configuration list for PBXNativeTarget "Pods-Memo for iMessage" */;
+			buildPhases = (
+				7362B61CBBADF2AC9B8AAC4AB7BF42DE /* Sources */,
+				DBC4ECCA2266221FA2A897F85D7E8B3F /* Frameworks */,
+				33E0869F2A1E1400ACA55B52B418D5F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Memo for iMessage";
+			productName = "Pods-Memo for iMessage";
+			productReference = C60D9A3134890175EB43096E594883A3 /* Pods_Memo_for_iMessage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9FD33035F60C926D9C440996E96FCAD /* Pods-Memo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98FE14EA20EAEA4D23FB8F7AB3E7135 /* Build configuration list for PBXNativeTarget "Pods-Memo" */;
+			buildPhases = (
+				973630033A0B6CACBAF4D78EEB369725 /* Sources */,
+				9EB55B06E4551C4E857CB90035BD24E6 /* Frameworks */,
+				C5AF2D2AA48A349CC8D9945B47D959F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39A73BAFAF887B9B380C6F540ADF50E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Memo";
+			productName = "Pods-Memo";
+			productReference = 6492D057455434E5BF3F607B89A523DC /* Pods_Memo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3ADCF607FF2D10546AF337ED27FC207E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				A9FD33035F60C926D9C440996E96FCAD /* Pods-Memo */,
+				A1D70612F414D3F983FDED415E140C67 /* Pods-Memo for iMessage */,
+				3D931C20A7AD4314A4F50BA28DE2F02E /* Pods-MemoTests */,
+				1552562C3964633C9440953C61FD3C2C /* Pods-MemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7362B61CBBADF2AC9B8AAC4AB7BF42DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19791911A0225C64BBF49B0F5B534720 /* Pods-Memo for iMessage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973630033A0B6CACBAF4D78EEB369725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D020AB748399D58FFCF86C51905930 /* Pods-Memo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF37C10064104BA397350A629207B54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D7E6AEA678CA0144ADB8A22933D9D5 /* Pods-MemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF2C62EF9DCD472430E4A5C77AA9FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A88B8482A29FC3BD66A8AB0B4666E2 /* Pods-MemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39A73BAFAF887B9B380C6F540ADF50E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 418A40B2F47B67864BC4A1A3D3C8B892 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19C46D4B69D521296D9CD6DEE2438BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448611993E5EE9314BE24D6518883B7E /* Pods-MemoTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MemoTests/Pods-MemoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MemoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E40EEDF1D73709046182105F35270E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961E676BB383C028449B6795564C8AAD /* Pods-Memo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Memo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Memo/Pods-Memo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Memo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41CF2EEA7F5C8380600D56A7F607F100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5FB6EB5F69417AC0A6622C737FCFBF /* Pods-MemoTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MemoTests/Pods-MemoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MemoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E33994F74B4D6B5968B0C671959533B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B820730CF03CBA665A6EAF9FB7CECB /* Pods-MemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MemoUITests/Pods-MemoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MemoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E3BB37312E5D4518EDFAD78B7C89440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19AA95E138099045A68E22B5B0EAFA4C /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		764F9B116604FB994E47A755EECBEFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959743F9CC31A5D659B93E6EEE0328E3 /* Pods-Memo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Memo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Memo/Pods-Memo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Memo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4E1BF3283B590AF3B6359A5A5BBB90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D88FD349E8EA3382C5E44448A16D515 /* Pods-Memo for iMessage.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Memo for iMessage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Memo for iMessage/Pods-Memo for iMessage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Memo_for_iMessage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19AA95E138099045A68E22B5B0EAFA4C /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA355D7D75D6711776349FDDBD17F4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2765FDCB506A6FAB632A1F1C41A16A62 /* Pods-Memo for iMessage.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Memo for iMessage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Memo for iMessage/Pods-Memo for iMessage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Memo_for_iMessage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F092363B1FD9066432C354365BD3BF78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB04EE9D5CC92098A68D0F32B3C6303E /* Pods-MemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MemoUITests/Pods-MemoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MemoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485647E5FE82D541A90DF84DCF06E90D /* Build configuration list for PBXNativeTarget "Pods-MemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41CF2EEA7F5C8380600D56A7F607F100 /* Debug */,
+				19C46D4B69D521296D9CD6DEE2438BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599AA52625DE61C28E8D8F888E795FEB /* Build configuration list for PBXNativeTarget "Pods-MemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E33994F74B4D6B5968B0C671959533B /* Debug */,
+				F092363B1FD9066432C354365BD3BF78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA41A1773121865C690A1198DC034EC /* Build configuration list for PBXNativeTarget "Pods-Memo for iMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E1BF3283B590AF3B6359A5A5BBB90C /* Debug */,
+				DA355D7D75D6711776349FDDBD17F4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */,
+				4E3BB37312E5D4518EDFAD78B7C89440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98FE14EA20EAEA4D23FB8F7AB3E7135 /* Build configuration list for PBXNativeTarget "Pods-Memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764F9B116604FB994E47A755EECBEFD3 /* Debug */,
+				2E40EEDF1D73709046182105F35270E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

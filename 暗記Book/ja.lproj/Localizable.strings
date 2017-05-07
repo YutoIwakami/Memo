@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  Memo
+
+  Created by ゆうと on 2016/12/09.
+
+*/
+
+/* Alert */
+"Alert_Title" = "新しくメモを作りますか？";
+"Alert_Message_Y" = "はい";
+"Alert_Message_N" = "いいえ";
+
+
+/* Error */
+"TitleError" = "タイトルを入力してください";
+
+/* 保存 */
+"Save" = "保存しました";
+
+/* Delete */
+"Delete_Message" = "全てのメモを消去しますか？";
+

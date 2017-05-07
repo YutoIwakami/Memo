@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6697;&#x8a18;Book/CollaborationCell.swift"
+            timestampString = "513353199.21448"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "textFieldDidEndEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6697;&#x8a18;Book/ColorCollectionViewController.swift"
+            timestampString = "515819296.012556"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ColorCollectionViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Memo.ColorCollectionViewController.__deallocating_deinit"
+                  moduleName = "Memo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuuto/Desktop/Memo%20+%20Firebase/%E6%9A%97%E8%A8%98Book/ColorCollectionViewController.swift"
+                  timestampString = "515824448.404767"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Memo.ColorCollectionViewController.init (collectionViewLayout : __ObjC.UICollectionViewLayout) -&gt; Memo.ColorCollectionViewController"
+                  moduleName = "Memo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuuto/Desktop/Memo%20+%20Firebase/%E6%9A%97%E8%A8%98Book/ColorCollectionViewController.swift"
+                  timestampString = "515824448.412169"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Memo.ColorCollectionViewController.__allocating_init (collectionViewLayout : __ObjC.UICollectionViewLayout) -&gt; Memo.ColorCollectionViewController"
+                  moduleName = "Memo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuuto/Desktop/Memo%20+%20Firebase/%E6%9A%97%E8%A8%98Book/ColorCollectionViewController.swift"
+                  timestampString = "515824448.430854"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

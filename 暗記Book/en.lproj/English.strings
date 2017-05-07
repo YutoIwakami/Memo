@@ -1,0 +1,12 @@
+/* 
+  Base.strings
+  Memo
+
+  Created by ゆうと on 2016/12/09.
+
+*/
+
+/* Alert */
+Alert_Title = "Do you want to make a new Memo?"
+Alert_Message_Y = "Yes"
+Alert_Message_N = "No"
